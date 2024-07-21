@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet">
+  <script src="assets/js/pace.min.js"></script>
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+  <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css">
+  <!--bootstrap css-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="assets/plugins/bs-stepper/css/bs-stepper.css" rel="stylesheet">
+
+
+  <!--main css-->
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="sass/main.css" rel="stylesheet">
+  <link href="assets/css/horizontal-menu.css" rel="stylesheet">
+  <link href="sass/dark-theme.css" rel="stylesheet">
+  <link href="sass/blue-theme.css" rel="stylesheet">
+  <link href="sass/semi-dark.css" rel="stylesheet">
+  <link href="sass/bordered-theme.css" rel="stylesheet">
+  <link href="sass/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--start header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand align-items-center justify-content-between gap-4 border-bottom">
+      <div class="logo-header d-none d-xl-flex align-items-center gap-2">
+        <div class="logo-icon">
+          <img src="assets/images/brand_logo.jpg" class="logo-img" width="45" alt="">
+        </div>
+        <div class="logo-name">
+          <h5 class="mb-0">Maxton</h5>
+        </div>
+      </div>
+      <div class="btn-toggle d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+        <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+      </div>
+      <div class="search-bar">
+        <div class="position-relative">
+          <input class="form-control rounded-5 px-5 search-control d-lg-block d-none" type="text" placeholder="Search">
+          <span
+            class="material-icons-outlined position-absolute d-lg-block d-none ms-3 translate-middle-y start-0 top-50">search</span>
+          <span
+            class="material-icons-outlined position-absolute me-3 translate-middle-y end-0 top-50 search-close">close</span>
+
+        </div>
+      </div>
+      <ul class="navbar-nav gap-1 nav-right-links align-items-center">
+        <li class="nav-item d-lg-none mobile-search-btn">
+          <a class="nav-link" href="javascript:;"><i class="material-icons-outlined">search</i></a>
+        </li>
+
+
+        <li class="nav-item dropdown position-static  d-md-flex d-none">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">done_all</i></a>
+          <div class="dropdown-menu dropdown-menu-end mega-menu shadow-lg p-4 p-lg-5">
+            <div class="mega-menu-widgets">
+              <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 g-lg-5">
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <div class="mega-menu-icon flex-shrink-0 bg-danger">
+                          <i class="material-icons-outlined">question_answer</i>
+                        </div>
+                        <div class="mega-menu-content">
+                          <h5>Marketing</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/02.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Website</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/03.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Subscribers</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/01.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Hubspot</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/11.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Templates</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/13.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Ebooks</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/12.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Sales</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/08.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Tools</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/09.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Academy</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">apps</i></a>
+          <div class="dropdown-menu dropdown-menu-end dropdown-apps shadow-lg p-3">
+            <div class="border rounded-4 overflow-hidden">
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/01.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Gmail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/02.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Skype</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/03.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Slack</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/04.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">YouTube</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/05.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/06.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Instagram</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/07.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Spotify</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/08.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Yahoo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/09.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Facebook</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/10.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Figma</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/11.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Paypal</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/12.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Photo</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">notifications</i>
+            <span class="badge-notify">5</span>
+          </a>
+          <div class="dropdown-menu dropdown-notify dropdown-menu-end shadow">
+            <div class="px-3 py-1 d-flex align-items-center justify-content-between border-bottom">
+              <h5 class="notiy-title mb-0">Notifications</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropdown-toggle-nocaret option" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="material-icons-outlined">
+                    more_vert
+                  </span>
+                </button>
+                <div class="dropdown-menu dropdown-option dropdown-menu-end shadow">
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">inventory_2</i>Archive All</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">done_all</i>Mark all as read</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">mic_off</i>Disable Notifications</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">grade</i>What's new ?</a></div>
+                  <div>
+                    <hr class="dropdown-divider">
+                  </div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">leaderboard</i>Reports</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="notify-list">
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/avatars/01.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Congratulations Jhon</h5>
+                      <p class="mb-0 notify-desc">Many congtars jhon. You have won the gifts.</p>
+                      <p class="mb-0 notify-time">Today</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="user-wrapper bg-primary text-primary bg-opacity-10">
+                      <span>RS</span>
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Account Created</h5>
+                      <p class="mb-0 notify-desc">From USA an user has registered.</p>
+                      <p class="mb-0 notify-time">Yesterday</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/apps/13.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Payment Recived</h5>
+                      <p class="mb-0 notify-desc">New payment recived successfully</p>
+                      <p class="mb-0 notify-time">1d ago</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/apps/14.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Order Recived</h5>
+                      <p class="mb-0 notify-desc">Recived new order from michle</p>
+                      <p class="mb-0 notify-time">2:15 AM</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/avatars/06.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Congratulations Jhon</h5>
+                      <p class="mb-0 notify-desc">Many congtars jhon. You have won the gifts.</p>
+                      <p class="mb-0 notify-time">Today</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="user-wrapper bg-danger text-danger bg-opacity-10">
+                      <span>PK</span>
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Account Created</h5>
+                      <p class="mb-0 notify-desc">From USA an user has registered.</p>
+                      <p class="mb-0 notify-time">Yesterday</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item d-md-flex d-none">
+          <a class="nav-link position-relative" data-bs-toggle="offcanvas" href="#offcanvasCart"><i
+              class="material-icons-outlined">shopping_cart</i>
+            <span class="badge-notify">8</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+            <img src="assets/images/avatars/01.png" class="rounded-circle p-1 border" width="45" height="45" alt="">
+          </a>
+          <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+            <a class="dropdown-item  gap-2 py-2" href="javascript:;">
+              <div class="text-center">
+                <img src="assets/images/avatars/01.png" class="rounded-circle p-1 shadow mb-3" width="90" height="90"
+                  alt="">
+                <h5 class="user-name mb-0 fw-bold">Hello, Jhon</h5>
+              </div>
+            </a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">person_outline</i>Profile</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">local_bar</i>Setting</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">dashboard</i>Dashboard</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">account_balance</i>Earning</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">cloud_download</i>Downloads</a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">power_settings_new</i>Logout</a>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+  <!--navigation-->
+  <div class="primary-menu">
+    <nav class="navbar navbar-expand-xl align-items-center">
+      <div class="offcanvas offcanvas-start w-260" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header border-bottom h-70">
+          <div class="d-flex align-items-center gap-2">
+            <div class="">
+              <img src="assets/images/brand_logo.jpg" class="logo-icon" width="45" alt="logo icon">
+            </div>
+            <div class="">
+              <h4 class="logo-text">Maxton</h4>
+            </div>
+          </div>
+          <a href="javascript:;" class="primaery-menu-close" data-bs-dismiss="offcanvas">
+            <i class="material-icons-outlined">close</i>
+          </a>
+        </div>
+        <div class="offcanvas-body p-0">
+          <ul class="navbar-nav align-items-center flex-grow-1">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class="material-icons-outlined">home</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Dashboard</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html"><i
+                      class='material-icons-outlined'>insights</i>Analysis</a></li>
+                <!-- <li><a class="dropdown-item" href="index2.html"><i class='material-icons-outlined'>shopping_cart</i>eCommerce</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>apps</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Student</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="student_regd.html"><i
+                      class='material-icons-outlined'>email</i>Registration</a></li>
+                <li><a class="dropdown-item" href="student_list.html"><i class='material-icons-outlined'>chat</i>Student
+                    List</a></li>
+                <!-- <li><a class="dropdown-item" href="app-file-manager.html"><i class='material-icons-outlined'>folder</i>Fees Status</a></li> -->
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal"><i
+                      class='material-icons-outlined'>task</i>Upload Data</a></li>
+                <li><a class="dropdown-item" href="app-invoice.html"><i
+                      class='material-icons-outlined'>description</i>Uploaded List</a></li>
+                <li><a class="dropdown-item" href="liveStreamList.html"><i
+                      class='material-icons-outlined'>description</i>Live Streaming List</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Test</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li> <a class="dropdown-item" href="add_qustion.html"><i class='material-icons-outlined'>source</i>Add
+                    Quistion</a>
+                </li>
+                <li> <a class="dropdown-item" href="quistion_list.html"><i
+                      class='material-icons-outlined'>work_outline</i>Quistion List</a>
+                </li>
+                <li> <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal1"><i
+                      class='material-icons-outlined'>timeline</i>Add Test</a>
+                </li>
+                <li> <a class="dropdown-item" href="test-list.html"><i class='material-icons-outlined'>label</i>Test
+                    List</a>
+                </li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Enquiry</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+
+
+                <li> <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal2"><i
+                      class='material-icons-outlined'>dns</i>Quick Inquiry</a>
+                </li>
+                <li> <a class="dropdown-item" href="add_qustion.html"><i
+                      class='material-icons-outlined'>hourglass_empty</i>Add Enquiry</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>backup</i>Enquiry List</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">More</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+
+
+                <li> <a class="dropdown-item" href="allmasters.html"><i
+                      class='material-icons-outlined'>dns</i>All Masters</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>hourglass_empty</i>Add Contact</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>backup</i>Contact List</a>
+                </li>
+
+              </ul>
+            </li>
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <!--start main wrapper-->
+    <main class="main-wrapper">
+        <div class="main-content">
+            <!--breadcrumb-->
+            <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                <div class="breadcrumb-title pe-3">Dashboard</div>
+                <div class="ps-3">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 p-0">
+                            <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Question Form</li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+									<label for="single-select-optgroup-field" class="form-label">Subject</label>
+									<select class="form-select" id="single-select-optgroup-field" data-placeholder="Choose one thing">
+										
+										<optgroup label="12th">
+											<option>Computer</option>
+											
+										</optgroup>
+										<optgroup label="MA2">
+											<option>Odia</option>
+											
+										</optgroup>
+										<optgroup label="Other">
+											<option>Odia</option>
+											<option>Odia</option>
+											<option>Odia</option>
+											<option>Odia</option>
+											<option>Odia</option>
+											<option>Odia</option>
+											<option>Odia</option>
+											
+										</optgroup>
+									</select>
+								</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="input4" class="form-label">Test Name</label>
+                                <input type="email" class="form-control" id="input4" disabled value="N/A">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="">
+                                    <label for="single-select-field" class="form-labe">Chapter</label>
+                                    <select class="form-select" id="single-select-field"
+                                        data-placeholder="Choose one thing">
+
+                                        <option>Reactive</option>
+                                        <option>Solution</option>
+                                        <option>Conglomeration</option>
+                                        <option>Algoritm</option>
+                                        <option>Holistic</option>
+                                        <option>Holistic1</option>
+                                        <option>Holistic2</option>
+                                        <option>Holistic3</option>
+                                        <option>Holistic4</option>
+                                        <option>Holistic5</option>
+                                        <option>Holistic6</option>
+                                        <option>Holistic7</option>
+                                        <option>Holistic8</option>
+                                        <option>Holistic9</option>
+                                        <option>Holistic0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="">
+                                    <label for="single-select-field1" class="form-labe">Topic</label>
+                                    <select class="form-select" id="single-select-field1"
+                                        data-placeholder="Choose one thing">
+
+                                        <option>Reactive</option>
+                                        <option>Solution</option>
+                                        <option>Conglomeration</option>
+                                        <option>Algoritm</option>
+                                        <option>Holistic</option>
+                                        <option>Holistic1</option>
+                                        <option>Holistic2</option>
+                                        <option>Holistic3</option>
+                                        <option>Holistic4</option>
+                                        <option>Holistic5</option>
+                                        <option>Holistic6</option>
+                                        <option>Holistic7</option>
+                                        <option>Holistic8</option>
+                                        <option>Holistic9</option>
+                                        <option>Holistic0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="">
+                                    <label for="single-select-field2" class="form-labe">Difficulty Level</label>
+                                    <select class="form-select" id="single-select-field2"
+                                        data-placeholder="Choose one thing">
+
+                                        <option>Reactive</option>
+                                        <option>Solution</option>
+                                        <option>Conglomeration</option>
+                                        <option>Algoritm</option>
+                                        <option>Holistic</option>
+                                        <option>Holistic1</option>
+                                        <option>Holistic2</option>
+                                        <option>Holistic3</option>
+                                        <option>Holistic4</option>
+                                        <option>Holistic5</option>
+                                        <option>Holistic6</option>
+                                        <option>Holistic7</option>
+                                        <option>Holistic8</option>
+                                        <option>Holistic9</option>
+                                        <option>Holistic0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="">
+                                    <label for="single-select-field3" class="form-labe">Question Type</label>
+                                    <select class="form-select" id="single-select-field3"
+                                        data-placeholder="Choose one thing">
+
+                                        <option>Reactive</option>
+                                        <option>Solution</option>
+                                        <option>Conglomeration</option>
+                                        <option>Algoritm</option>
+                                        <option>Holistic</option>
+                                        <option>Holistic1</option>
+                                        <option>Holistic2</option>
+                                        <option>Holistic3</option>
+                                        <option>Holistic4</option>
+                                        <option>Holistic5</option>
+                                        <option>Holistic6</option>
+                                        <option>Holistic7</option>
+                                        <option>Holistic8</option>
+                                        <option>Holistic9</option>
+                                        <option>Holistic0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="">
+                                    <label for="single-select-field4" class="form-labe">Tag</label>
+                                    <select class="form-select" id="single-select-field4"
+                                        data-placeholder="Choose one thing">
+
+                                        <option>Reactive</option>
+                                        <option>Solution</option>
+                                        <option>Conglomeration</option>
+                                        <option>Algoritm</option>
+                                        <option>Holistic</option>
+                                        <option>Holistic1</option>
+                                        <option>Holistic2</option>
+                                        <option>Holistic3</option>
+                                        <option>Holistic4</option>
+                                        <option>Holistic5</option>
+                                        <option>Holistic6</option>
+                                        <option>Holistic7</option>
+                                        <option>Holistic8</option>
+                                        <option>Holistic9</option>
+                                        <option>Holistic0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <style>
+                                    .cke_contents{
+                                        height: 125px !important;
+                                    }
+                                    .cke_toolbar_break{
+                                        display: block;
+                                        clear: right !important;
+                                    }
+                                    .remove-btn {
+                                        margin-left: 10px;
+                                        color: red;
+                                        cursor: pointer;
+                                        }
+                                        .dfjb{
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                 </style>
+                                 
+                                 <div class="container">
+                                    <div class="row mb-4" >
+                                        <div class="col-xl-2 text-center">
+                                          <p>Quistion <input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                          <div class="mb-2">
+                                           
+                                            <input type="file">
+                                          </div>
+                                          <textarea name="editor"></textarea>
+                                          
+                                        </div>
+                                      </div>
+                                   
+                                       
+
+                                      <div class="row mb-4" data-label="A">
+                                        <div class="col-xl-2 text-center">
+                                          <p>Options <input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                          <div class="mb-2 dfjb">
+                                        <div class=""> <span>A</span>
+                                            <input type="file"></div>
+                                            <div> <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor1', 'A')">delete</i></div>
+                                          </div>
+                                          
+                                          <textarea name="editor1"></textarea>
+                                         
+                                        </div>
+                                      </div>
+                                      <div class="row mb-4" data-label="B">
+                                        <div class="col-xl-2 text-center">
+                                          <p><input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <div class="mb-2 dfjb">
+                                                <div class=""> <span>B</span>
+                                                    <input type="file"></div>
+                                                    <div> <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor2', 'B')">delete</i></div>
+                                                  </div>
+                                          <textarea name="editor2"></textarea>
+                                          <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor2', 'B')">delete</i>
+                                        </div>
+                                      </div>
+                                      <div class="row mb-4" data-label="C">
+                                        <div class="col-xl-2 text-center">
+                                          <p><input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <div class="mb-2 dfjb">
+                                                <div class=""> <span>C</span>
+                                                    <input type="file"></div>
+                                                    <div> <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor3', 'C')">delete</i></div>
+                                                  </div>
+                                          <textarea name="editor3"></textarea>
+                                          <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor3', 'C')">delete</i>
+                                        </div>
+                                      </div>
+                                      <div class="row mb-4" data-label="D">
+                                        <div class="col-xl-2 text-center">
+                                          <p><input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <div class="mb-2 dfjb">
+                                                <div class=""> <span>D</span>
+                                                    <input type="file"></div>
+                                                    <div> <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor4', 'D')">delete</i></div>
+                                                  </div>
+                                          <textarea name="editor4"></textarea>
+                                          <i class="material-icons-outlined remove-btn" onclick="removeTextarea('editor4', 'D')">delete</i>
+                                        </div>
+                                      </div>
+                                      <div id="editors-container">
+                                    </div>
+                                    <button class="btn btn-primary" onclick="addToCart()">Add to Cart</button>
+                                    <div class="row mb-4" >
+                                        <div class="col-xl-2 text-center">
+                                          <p>Hints <input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                          <div class="mb-2">
+                                           
+                                            <input type="file">
+                                          </div>
+                                          <textarea name="editor10"></textarea>
+                                          
+                                        </div>
+                                      </div>
+                                      <div class="row mb-4" >
+                                        <div class="col-xl-2 text-center">
+                                          <p>Explanation <input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                          <div class="mb-2">
+                                           
+                                            <input type="file">
+                                          </div>
+                                          <textarea name="editor11"></textarea>
+                                          
+                                        </div>
+                                      </div>
+                                  
+                                  </div>
+                                
+                                
+                                  <script>
+                                    // Initialize CKEditor for existing textareas
+                                    CKEDITOR.replace('editor1');
+                                    CKEDITOR.replace('editor2');
+                                    CKEDITOR.replace('editor3');
+                                    CKEDITOR.replace('editor4');
+                                
+                                    let editorCount = 4;
+                                    const allLabels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+                                    let usedLabels = ['A', 'B', 'C', 'D'];
+                                    let availableLabels = allLabels.filter(label => !usedLabels.includes(label));
+                                
+                                    // Remove the CKEditor instance and the textarea
+                                    function removeTextarea(editorName, label) {
+                                      const editorInstance = CKEDITOR.instances[editorName];
+                                      if (editorInstance) {
+                                        editorInstance.destroy();
+                                      }
+                                      const textareaElement = document.getElementsByName(editorName)[0];
+                                      if (textareaElement) {
+                                        textareaElement.closest('.row').remove();
+                                        usedLabels = usedLabels.filter(usedLabel => usedLabel !== label);
+                                        availableLabels = allLabels.filter(allLabel => !usedLabels.includes(allLabel));
+                                      }
+                                    }
+                                
+                                    // Function to handle Add to Cart button click
+                                    function addToCart() {
+                                      editorCount++;
+                                      const newEditorId = 'editor' + editorCount;
+                                      const newLabel = availableLabels.shift();
+                                      usedLabels.push(newLabel);
+                                      usedLabels.sort();
+                                      availableLabels = allLabels.filter(allLabel => !usedLabels.includes(allLabel));
+                                
+                                      const newRow = document.createElement('div');
+                                      newRow.className = 'row mb-4';
+                                      newRow.setAttribute('data-label', newLabel);
+                                      newRow.innerHTML = `
+                                        <div class="col-xl-2 text-center">
+                                          <p><input type="checkbox" name="" id=""></p>
+                                        </div>
+                                        <div class="col-xl-10">
+                                          <div class="mb-2">
+                                            <span>${newLabel}</span>
+                                            <input type="file">
+                                          </div>
+                                          <textarea name="${newEditorId}"></textarea>
+                                          <i class="material-icons-outlined remove-btn" onclick="removeTextarea('${newEditorId}', '${newLabel}')">delete</i>
+                                        </div>
+                                      `;
+                                      document.getElementById('editors-container').appendChild(newRow);
+                                      CKEDITOR.replace(newEditorId);
+                                      sortEditors();
+                                    }
+                                
+                                    // Function to sort editors alphabetically
+                                    function sortEditors() {
+                                      const container = document.getElementById('editors-container');
+                                      const rows = Array.from(container.getElementsByClassName('row'));
+                                      rows.sort((a, b) => a.getAttribute('data-label').localeCompare(b.getAttribute('data-label')));
+                                      rows.forEach(row => container.appendChild(row));
+                                    }
+                                  </script>
+                               
+                               
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+    </main>
+    <!--end main wrapper-->
+
+
+    <!--start overlay-->
+    <div class="overlay btn-toggle"></div>
+    <!--end overlay-->
+
+
+    <!--start footer-->
+    <footer class="page-footer">
+        <p class="mb-0">Copyright © 2024. All right reserved.</p>
+    </footer>
+    <!--end footer-->
+
+
+
+
+
+    <!--start switcher-->
+
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/plugins/peity/jquery.peity.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+    <script>
+         CKEDITOR.replace('editor');
+        CKEDITOR.replace('editor1');
+        CKEDITOR.replace('editor2');
+        CKEDITOR.replace('editor3');
+        CKEDITOR.replace('editor4');
+        CKEDITOR.replace('editor5');
+        CKEDITOR.replace('editor10');
+        CKEDITOR.replace('editor11');
+      </script>
+
+
+
+    <script>
+        $(".data-attributes span").peity("donut")
+    </script>
+    <script src="assets/js/dashboard2.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="assets/plugins/select2/js/select2-custom.js"></script>
+
+
+    <script src="assets/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+    <script src="assets/plugins/bs-stepper/js/main.js"></script>
+
+
+
+    <script>
+
+
+
+        $(".date-format").flatpickr({
+            altInput: true,
+            altFormat: "F j, Y",
+            dateFormat: "Y-m-d",
+        });
+
+
+
+    </script>
+    <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

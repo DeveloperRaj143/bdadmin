@@ -1,0 +1,3203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet">
+  <script src="assets/js/pace.min.js"></script>
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+  <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css">
+  <!--bootstrap css-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="assets/plugins/bs-stepper/css/bs-stepper.css" rel="stylesheet">
+
+
+  <!--main css-->
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="sass/main.css" rel="stylesheet">
+  <link href="assets/css/horizontal-menu.css" rel="stylesheet">
+  <link href="sass/dark-theme.css" rel="stylesheet">
+  <link href="sass/blue-theme.css" rel="stylesheet">
+  <link href="sass/semi-dark.css" rel="stylesheet">
+  <link href="sass/bordered-theme.css" rel="stylesheet">
+  <link href="sass/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--start header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand align-items-center justify-content-between gap-4 border-bottom">
+      <div class="logo-header d-none d-xl-flex align-items-center gap-2">
+        <div class="logo-icon">
+          <img src="assets/images/brand_logo.jpg" class="logo-img" width="45" alt="">
+        </div>
+        <div class="logo-name">
+          <h5 class="mb-0">Maxton</h5>
+        </div>
+      </div>
+      <div class="btn-toggle d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+        <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+      </div>
+      <div class="search-bar">
+        <div class="position-relative">
+          <input class="form-control rounded-5 px-5 search-control d-lg-block d-none" type="text" placeholder="Search">
+          <span
+            class="material-icons-outlined position-absolute d-lg-block d-none ms-3 translate-middle-y start-0 top-50">search</span>
+          <span
+            class="material-icons-outlined position-absolute me-3 translate-middle-y end-0 top-50 search-close">close</span>
+
+        </div>
+      </div>
+      <ul class="navbar-nav gap-1 nav-right-links align-items-center">
+        <li class="nav-item d-lg-none mobile-search-btn">
+          <a class="nav-link" href="javascript:;"><i class="material-icons-outlined">search</i></a>
+        </li>
+
+
+        <li class="nav-item dropdown position-static  d-md-flex d-none">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">done_all</i></a>
+          <div class="dropdown-menu dropdown-menu-end mega-menu shadow-lg p-4 p-lg-5">
+            <div class="mega-menu-widgets">
+              <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 g-lg-5">
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <div class="mega-menu-icon flex-shrink-0 bg-danger">
+                          <i class="material-icons-outlined">question_answer</i>
+                        </div>
+                        <div class="mega-menu-content">
+                          <h5>Marketing</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/02.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Website</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/03.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Subscribers</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/01.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Hubspot</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/11.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Templates</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/13.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Ebooks</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/12.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Sales</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/08.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Tools</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-4 shadow-none border mb-0">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start gap-3">
+                        <img src="assets/images/megaIcons/09.png" width="40" alt="">
+                        <div class="mega-menu-content">
+                          <h5>Academy</h5>
+                          <p class="mb-0 f-14">In publishing and graphic design, Lorem ipsum is a placeholder text
+                            commonly used to demonstrate
+                            the visual form of a document.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">apps</i></a>
+          <div class="dropdown-menu dropdown-menu-end dropdown-apps shadow-lg p-3">
+            <div class="border rounded-4 overflow-hidden">
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/01.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Gmail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/02.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Skype</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/03.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Slack</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/04.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">YouTube</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/05.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/06.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Instagram</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0 border-bottom">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/07.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Spotify</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/08.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Yahoo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/09.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Facebook</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+
+              <div class="row row-cols-3 g-0">
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/10.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Figma</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col border-end">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/11.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Paypal</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="app-wrapper d-flex flex-column gap-2 text-center">
+                    <div class="app-icon">
+                      <img src="assets/images/apps/12.png" width="36" alt="">
+                    </div>
+                    <div class="app-name">
+                      <p class="mb-0">Photo</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!--end row-->
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" href="javascript:;"><i class="material-icons-outlined">notifications</i>
+            <span class="badge-notify">5</span>
+          </a>
+          <div class="dropdown-menu dropdown-notify dropdown-menu-end shadow">
+            <div class="px-3 py-1 d-flex align-items-center justify-content-between border-bottom">
+              <h5 class="notiy-title mb-0">Notifications</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle dropdown-toggle-nocaret option" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="material-icons-outlined">
+                    more_vert
+                  </span>
+                </button>
+                <div class="dropdown-menu dropdown-option dropdown-menu-end shadow">
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">inventory_2</i>Archive All</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">done_all</i>Mark all as read</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">mic_off</i>Disable Notifications</a></div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">grade</i>What's new ?</a></div>
+                  <div>
+                    <hr class="dropdown-divider">
+                  </div>
+                  <div><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                        class="material-icons-outlined fs-6">leaderboard</i>Reports</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="notify-list">
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/avatars/01.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Congratulations Jhon</h5>
+                      <p class="mb-0 notify-desc">Many congtars jhon. You have won the gifts.</p>
+                      <p class="mb-0 notify-time">Today</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="user-wrapper bg-primary text-primary bg-opacity-10">
+                      <span>RS</span>
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Account Created</h5>
+                      <p class="mb-0 notify-desc">From USA an user has registered.</p>
+                      <p class="mb-0 notify-time">Yesterday</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/apps/13.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Payment Recived</h5>
+                      <p class="mb-0 notify-desc">New payment recived successfully</p>
+                      <p class="mb-0 notify-time">1d ago</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/apps/14.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Order Recived</h5>
+                      <p class="mb-0 notify-desc">Recived new order from michle</p>
+                      <p class="mb-0 notify-time">2:15 AM</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item border-bottom py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="">
+                      <img src="assets/images/avatars/06.png" class="rounded-circle" width="45" height="45" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">Congratulations Jhon</h5>
+                      <p class="mb-0 notify-desc">Many congtars jhon. You have won the gifts.</p>
+                      <p class="mb-0 notify-time">Today</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a class="dropdown-item py-2" href="javascript:;">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="user-wrapper bg-danger text-danger bg-opacity-10">
+                      <span>PK</span>
+                    </div>
+                    <div class="">
+                      <h5 class="notify-title">New Account Created</h5>
+                      <p class="mb-0 notify-desc">From USA an user has registered.</p>
+                      <p class="mb-0 notify-time">Yesterday</p>
+                    </div>
+                    <div class="notify-close position-absolute end-0 me-3">
+                      <i class="material-icons-outlined fs-6">close</i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item d-md-flex d-none">
+          <a class="nav-link position-relative" data-bs-toggle="offcanvas" href="#offcanvasCart"><i
+              class="material-icons-outlined">shopping_cart</i>
+            <span class="badge-notify">8</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+            <img src="assets/images/avatars/01.png" class="rounded-circle p-1 border" width="45" height="45" alt="">
+          </a>
+          <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+            <a class="dropdown-item  gap-2 py-2" href="javascript:;">
+              <div class="text-center">
+                <img src="assets/images/avatars/01.png" class="rounded-circle p-1 shadow mb-3" width="90" height="90"
+                  alt="">
+                <h5 class="user-name mb-0 fw-bold">Hello, Jhon</h5>
+              </div>
+            </a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">person_outline</i>Profile</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">local_bar</i>Setting</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">dashboard</i>Dashboard</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">account_balance</i>Earning</a>
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">cloud_download</i>Downloads</a>
+            <hr class="dropdown-divider">
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">power_settings_new</i>Logout</a>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+  <!--navigation-->
+  <div class="primary-menu">
+    <nav class="navbar navbar-expand-xl align-items-center">
+      <div class="offcanvas offcanvas-start w-260" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header border-bottom h-70">
+          <div class="d-flex align-items-center gap-2">
+            <div class="">
+              <img src="assets/images/brand_logo.jpg" class="logo-icon" width="45" alt="logo icon">
+            </div>
+            <div class="">
+              <h4 class="logo-text">Maxton</h4>
+            </div>
+          </div>
+          <a href="javascript:;" class="primaery-menu-close" data-bs-dismiss="offcanvas">
+            <i class="material-icons-outlined">close</i>
+          </a>
+        </div>
+        <div class="offcanvas-body p-0">
+          <ul class="navbar-nav align-items-center flex-grow-1">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class="material-icons-outlined">home</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Dashboard</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html"><i
+                      class='material-icons-outlined'>insights</i>Analysis</a></li>
+                <!-- <li><a class="dropdown-item" href="index2.html"><i class='material-icons-outlined'>shopping_cart</i>eCommerce</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>apps</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Student</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="student_regd.html"><i
+                      class='material-icons-outlined'>email</i>Registration</a></li>
+                <li><a class="dropdown-item" href="student_list.html"><i class='material-icons-outlined'>chat</i>Student
+                    List</a></li>
+                <!-- <li><a class="dropdown-item" href="app-file-manager.html"><i class='material-icons-outlined'>folder</i>Fees Status</a></li> -->
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal"><i
+                      class='material-icons-outlined'>task</i>Upload Data</a></li>
+                <li><a class="dropdown-item" href="app-invoice.html"><i
+                      class='material-icons-outlined'>description</i>Uploaded List</a></li>
+                <li><a class="dropdown-item" href="liveStreamList.html"><i
+                      class='material-icons-outlined'>description</i>Live Streaming List</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Test</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+                <li> <a class="dropdown-item" href="add_qustion.html"><i class='material-icons-outlined'>source</i>Add
+                    Quistion</a>
+                </li>
+                <li> <a class="dropdown-item" href="quistion_list.html"><i
+                      class='material-icons-outlined'>work_outline</i>Quistion List</a>
+                </li>
+                <li> <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal1"><i
+                      class='material-icons-outlined'>timeline</i>Add Test</a>
+                </li>
+                <li> <a class="dropdown-item" href="test-list.html"><i class='material-icons-outlined'>label</i>Test
+                    List</a>
+                </li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">Enquiry</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+
+
+                <li> <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FormModal2"><i
+                      class='material-icons-outlined'>dns</i>Quick Inquiry</a>
+                </li>
+                <li> <a class="dropdown-item" href="add_qustion.html"><i
+                      class='material-icons-outlined'>hourglass_empty</i>Add Enquiry</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>backup</i>Enquiry List</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                <div class="parent-icon"><i class='material-icons-outlined'>note_alt</i>
+                </div>
+                <div class="menu-title d-flex align-items-center">More</div>
+                <div class="ms-auto dropy-icon"><i class='material-icons-outlined'>expand_more</i></div>
+              </a>
+              <ul class="dropdown-menu">
+
+
+                <li> <a class="dropdown-item" href="allmasters.html"><i
+                      class='material-icons-outlined'>dns</i>All Masters</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>hourglass_empty</i>Add Contact</a>
+                </li>
+                <li> <a class="dropdown-item" href="enquiry-list.html"><i
+                      class='material-icons-outlined'>backup</i>Contact List</a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--end navigation-->
+ <!--start main wrapper-->
+ <main class="main-wrapper">
+    <div class="main-content">
+        
+        <style>
+            .active-div {
+                display: block;
+                color: #000;
+            }
+            a{
+              list-style: none;
+            }
+    
+            .inactive-div {
+                display: none;
+            }
+    
+            .col-md-10 .row .wow {
+    
+    
+                visibility: visible !important;
+            }
+    
+            .color-red {
+                color: red;
+            }
+    
+            .col-md-10 .active-div .row {
+                animation: ani 0.3s;
+            }
+    
+            @keyframes ani {
+                0% {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+    
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                    /* margin-top: 0px;
+                    visibility: hidden !important;
+                    display: none;
+                    transform: rotate(360deg); */
+                }
+            }
+    
+            .productListUI {
+                margin-left: 10px;
+            }
+    
+            .productListUI li {
+                font-size: 16px;
+                color: #bababa;
+    
+                padding: 3px 10px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+    
+            .productListUI li span {
+                margin-left: 10px;
+                text-transform: capitalize !important;
+    
+            }
+            #flush-collapseOne .accordion-body input[type="radio"] {
+    display: none;
+}
+.dt-buttons.btn-group{
+  display: none;
+}
+.countainer-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+        </style>
+        <section class="section1 ">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mb-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+    
+                                    Enquiry & Student
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body py-0 show">
+                                    <ul class="productListUI">
+                                        <li id="code1-link" class="accordion-link1 color-blue"><input type="radio" name="rj"
+                                                id="code11" checked> <label for="code11"> <span>Class</span></label></li>
+                                        <li id="code2-link" class="accordion-link1"><input type="radio" name="rj"
+                                                id="code12"> <label for="code12"> <span>Subjects</span></label></li>
+                                        <li id="code3-link" class="accordion-link1"><input type="radio" name="rj"
+                                                id="code13"> <label for="code13"> <span>Course</span></label></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <style>
+                    .basis-member.staff {
+                        /* padding: 4rem 0; */
+                        font-family: 'Raleway', sans-serif;
+                    }
+    
+                    .basis-member.staff .member-box {
+                        position: relative;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        margin-bottom: 30px;
+                    }
+    
+                    .basis-member.staff .member-box .card-body {
+                        position: relative;
+                        height: 100%;
+                    }
+    
+                    .basis-member.staff .member-box .shape {
+                        width: 200px;
+                        height: 200px;
+                        background: #ffab40;
+                        opacity: 0.2;
+                        position: absolute;
+                        top: 0;
+                        right: -100px;
+                        transform: rotate(45deg);
+                    }
+    
+                    .basis-member.staff .member-box .card-img-top {
+                        position: relative;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        border-top-left-radius: 0;
+                        border-bottom: 5px solid var(--primary);
+                    }
+    
+                    .basis-member.staff .member-box .member-title {
+                        font-size: 16px;
+                        font-weight: bold;
+                        letter-spacing: -0.025em;
+                    }
+    
+                    .member-box:hover .card-img-top,
+                    .member-box:hover .member-title {
+                        transform: scale(1.1);
+                    }
+    
+                    .active-div .row .card {
+                        border: none !important;
+                    }
+                </style>
+                <div class="col-md-10">
+                    <div id="code1" class="active-div">
+                      <div class="countainer-center">
+                      <div class=" mx-auto">
+                        <div class="row mb-2">
+                          <div class="col-md-4 ">
+                            <label for="bsValidation1" class="form-label">First Name</label>
+                          </div>
+                          <div class="col-md-8"><input type="text" class="form-control" id="bsValidation1" placeholder="First Name"  >
+                          </div>
+
+                        </div>
+                        <div class="row mb-2">
+                          <div class="col-md-4 ">
+                            <label for="bsValidation1" class="form-label">No of Sem</label>
+                          </div>
+                          <div class="col-md-8"><input type="text" class="form-control" id="bsValidation1" placeholder="First Name" >
+                          </div>
+
+                        </div>
+                        <div class="row">
+                          <div class="col-md-4 mb-3">
+                            <label for="">Status</label>
+                          </div>
+                           <div class="col-md-8 d-flex gap-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                 Student 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault">
+                               Employee
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                               both
+                                </label>
+                              </div>
+                           </div>
+                        
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="d-flex align-items-center gap-3">
+                              <button class="btn btn-grd-danger px-4"><i class="bx bx-left-arrow-alt me-2"></i>Save</button>
+                              <button class="btn btn-grd-success px-4" >Cancel<i class="bx bx-right-arrow-alt ms-2"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="product-table">
+                        <div class="table-responsive white-space-nowrap">
+                          <table id="example2" class="table align-middle">
+                            <thead class="table-light">
+                              <tr>
+                                <th>
+                                    <input class="form-check-input" id="AllChecked" type="checkbox" onchange="checkAll(this)">
+                                </th>
+                                <th>Sr.</th>
+                                <th>Subject</th>
+                                <th>Chapter</th>
+                                <th>Topic</th>
+                                <th>Test</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                               
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                    OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                                
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                                
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <input class="form-check-input" type="checkbox">
+                                </td>
+                                <td>
+                                  <div class="d-flex align-items-center gap-3">
+                                    1
+                                </td>
+                                <td>$49</td>
+                                <td>Palazzos</td>
+                                <td>
+                                 OS-CIT
+                                </td>
+                                <td>
+                                  <div class="product-rating">
+                                    <i class="bi bi-star-fill text-warning me-2"></i><span>5.0</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="product-tags">
+                                    <a href="javascript:;" class="btn-tags">Active</a>
+                                  </div>
+                                </td>
+                               
+                                <td>
+                                  <div class="dropdown">
+                                    <button class="btn btn-sm btn-filter dropdown-toggle dropdown-toggle-nocaret"
+                                      type="button" data-bs-toggle="dropdown">
+                                      <i class="bi bi-three-dots"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">edit</a></li>
+                                      <li><a class="dropdown-item" href="#">Assign in test</a></li>
+                                      <li><a class="dropdown-item" href="#">delete</a></li>
+                                      <li><a class="dropdown-item" href="#">Full view</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+            
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="code2" class="inactive-div">
+                      <div class="countainer-center">
+                        <div class=" mx-auto">
+                          <div class="row mb-2">
+                            <div class="col-md-6 ">
+                              <label for="bsValidation1" class="form-label">Student Name</label>
+                              <input type="text" class="form-control" id="bsValidation1" placeholder="First Name"  >
+
+                            </div>
+                            <div class="col-md-6">
+                              <label for="bsValidation1" class="form-label">Subject</label>
+
+                              <input type="text" class="form-control" id="bsValidation1" placeholder="First Name"  >
+                            </div>
+  
+                          </div>
+                          <div class="row mb-2">
+                            <div class="col-md-12">
+                              <label for="input11" class="form-label">Address</label>
+                              <textarea class="form-control" id="input11" placeholder="Address ..." rows="3"></textarea>
+                            </div>
+                            
+  
+                          </div>
+                          
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="d-flex align-items-center gap-3">
+                                <button class="btn btn-grd-danger px-4"><i class="bx bx-left-arrow-alt me-2"></i>Save</button>
+                                <button class="btn btn-grd-success px-4" >Cancel<i class="bx bx-right-arrow-alt ms-2"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-responsive">
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Position</th>
+                              <th>Office</th>
+                              <th>Age</th>
+                              <th>Start date</th>
+                              <th>Salary</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Tiger Nixon</td>
+                              <td>System Architect</td>
+                              <td>Edinburgh</td>
+                              <td>61</td>
+                              <td>2011/04/25</td>
+                              <td>$320,800</td>
+                            </tr>
+                            <tr>
+                              <td>Garrett Winters</td>
+                              <td>Accountant</td>
+                              <td>Tokyo</td>
+                              <td>63</td>
+                              <td>2011/07/25</td>
+                              <td>$170,750</td>
+                            </tr>
+                            <tr>
+                              <td>Ashton Cox</td>
+                              <td>Junior Technical Author</td>
+                              <td>San Francisco</td>
+                              <td>66</td>
+                              <td>2009/01/12</td>
+                              <td>$86,000</td>
+                            </tr>
+                            <tr>
+                              <td>Cedric Kelly</td>
+                              <td>Senior Javascript Developer</td>
+                              <td>Edinburgh</td>
+                              <td>22</td>
+                              <td>2012/03/29</td>
+                              <td>$433,060</td>
+                            </tr>
+                            <tr>
+                              <td>Airi Satou</td>
+                              <td>Accountant</td>
+                              <td>Tokyo</td>
+                              <td>33</td>
+                              <td>2008/11/28</td>
+                              <td>$162,700</td>
+                            </tr>
+                            <tr>
+                              <td>Brielle Williamson</td>
+                              <td>Integration Specialist</td>
+                              <td>New York</td>
+                              <td>61</td>
+                              <td>2012/12/02</td>
+                              <td>$372,000</td>
+                            </tr>
+                            <tr>
+                              <td>Herrod Chandler</td>
+                              <td>Sales Assistant</td>
+                              <td>San Francisco</td>
+                              <td>59</td>
+                              <td>2012/08/06</td>
+                              <td>$137,500</td>
+                            </tr>
+                            <tr>
+                              <td>Rhona Davidson</td>
+                              <td>Integration Specialist</td>
+                              <td>Tokyo</td>
+                              <td>55</td>
+                              <td>2010/10/14</td>
+                              <td>$327,900</td>
+                            </tr>
+                            <tr>
+                              <td>Colleen Hurst</td>
+                              <td>Javascript Developer</td>
+                              <td>San Francisco</td>
+                              <td>39</td>
+                              <td>2009/09/15</td>
+                              <td>$205,500</td>
+                            </tr>
+                            <tr>
+                              <td>Sonya Frost</td>
+                              <td>Software Engineer</td>
+                              <td>Edinburgh</td>
+                              <td>23</td>
+                              <td>2008/12/13</td>
+                              <td>$103,600</td>
+                            </tr>
+                            <tr>
+                              <td>Jena Gaines</td>
+                              <td>Office Manager</td>
+                              <td>London</td>
+                              <td>30</td>
+                              <td>2008/12/19</td>
+                              <td>$90,560</td>
+                            </tr>
+                            <tr>
+                              <td>Quinn Flynn</td>
+                              <td>Support Lead</td>
+                              <td>Edinburgh</td>
+                              <td>22</td>
+                              <td>2013/03/03</td>
+                              <td>$342,000</td>
+                            </tr>
+                            <tr>
+                              <td>Charde Marshall</td>
+                              <td>Regional Director</td>
+                              <td>San Francisco</td>
+                              <td>36</td>
+                              <td>2008/10/16</td>
+                              <td>$470,600</td>
+                            </tr>
+                            <tr>
+                              <td>Haley Kennedy</td>
+                              <td>Senior Marketing Designer</td>
+                              <td>London</td>
+                              <td>43</td>
+                              <td>2012/12/18</td>
+                              <td>$313,500</td>
+                            </tr>
+                            <tr>
+                              <td>Tatyana Fitzpatrick</td>
+                              <td>Regional Director</td>
+                              <td>London</td>
+                              <td>19</td>
+                              <td>2010/03/17</td>
+                              <td>$385,750</td>
+                            </tr>
+                            <tr>
+                              <td>Michael Silva</td>
+                              <td>Marketing Designer</td>
+                              <td>London</td>
+                              <td>66</td>
+                              <td>2012/11/27</td>
+                              <td>$198,500</td>
+                            </tr>
+                            <tr>
+                              <td>Paul Byrd</td>
+                              <td>Chief Financial Officer (CFO)</td>
+                              <td>New York</td>
+                              <td>64</td>
+                              <td>2010/06/09</td>
+                              <td>$725,000</td>
+                            </tr>
+                            <tr>
+                              <td>Gloria Little</td>
+                              <td>Systems Administrator</td>
+                              <td>New York</td>
+                              <td>59</td>
+                              <td>2009/04/10</td>
+                              <td>$237,500</td>
+                            </tr>
+                            <tr>
+                              <td>Bradley Greer</td>
+                              <td>Software Engineer</td>
+                              <td>London</td>
+                              <td>41</td>
+                              <td>2012/10/13</td>
+                              <td>$132,000</td>
+                            </tr>
+                            <tr>
+                              <td>Dai Rios</td>
+                              <td>Personnel Lead</td>
+                              <td>Edinburgh</td>
+                              <td>35</td>
+                              <td>2012/09/26</td>
+                              <td>$217,500</td>
+                            </tr>
+                            <tr>
+                              <td>Jenette Caldwell</td>
+                              <td>Development Lead</td>
+                              <td>New York</td>
+                              <td>30</td>
+                              <td>2011/09/03</td>
+                              <td>$345,000</td>
+                            </tr>
+                            <tr>
+                              <td>Yuri Berry</td>
+                              <td>Chief Marketing Officer (CMO)</td>
+                              <td>New York</td>
+                              <td>40</td>
+                              <td>2009/06/25</td>
+                              <td>$675,000</td>
+                            </tr>
+                            <tr>
+                              <td>Caesar Vance</td>
+                              <td>Pre-Sales Support</td>
+                              <td>New York</td>
+                              <td>21</td>
+                              <td>2011/12/12</td>
+                              <td>$106,450</td>
+                            </tr>
+                            <tr>
+                              <td>Doris Wilder</td>
+                              <td>Sales Assistant</td>
+                              <td>Sydney</td>
+                              <td>23</td>
+                              <td>2010/09/20</td>
+                              <td>$85,600</td>
+                            </tr>
+                            <tr>
+                              <td>Angelica Ramos</td>
+                              <td>Chief Executive Officer (CEO)</td>
+                              <td>London</td>
+                              <td>47</td>
+                              <td>2009/10/09</td>
+                              <td>$1,200,000</td>
+                            </tr>
+                            <tr>
+                              <td>Gavin Joyce</td>
+                              <td>Developer</td>
+                              <td>Edinburgh</td>
+                              <td>42</td>
+                              <td>2010/12/22</td>
+                              <td>$92,575</td>
+                            </tr>
+                            <tr>
+                              <td>Jennifer Chang</td>
+                              <td>Regional Director</td>
+                              <td>Singapore</td>
+                              <td>28</td>
+                              <td>2010/11/14</td>
+                              <td>$357,650</td>
+                            </tr>
+                            <tr>
+                              <td>Brenden Wagner</td>
+                              <td>Software Engineer</td>
+                              <td>San Francisco</td>
+                              <td>28</td>
+                              <td>2011/06/07</td>
+                              <td>$206,850</td>
+                            </tr>
+                            <tr>
+                              <td>Fiona Green</td>
+                              <td>Chief Operating Officer (COO)</td>
+                              <td>San Francisco</td>
+                              <td>48</td>
+                              <td>2010/03/11</td>
+                              <td>$850,000</td>
+                            </tr>
+                            <tr>
+                              <td>Shou Itou</td>
+                              <td>Regional Marketing</td>
+                              <td>Tokyo</td>
+                              <td>20</td>
+                              <td>2011/08/14</td>
+                              <td>$163,000</td>
+                            </tr>
+                            <tr>
+                              <td>Michelle House</td>
+                              <td>Integration Specialist</td>
+                              <td>Sydney</td>
+                              <td>37</td>
+                              <td>2011/06/02</td>
+                              <td>$95,400</td>
+                            </tr>
+                            <tr>
+                              <td>Suki Burks</td>
+                              <td>Developer</td>
+                              <td>London</td>
+                              <td>53</td>
+                              <td>2009/10/22</td>
+                              <td>$114,500</td>
+                            </tr>
+                            <tr>
+                              <td>Prescott Bartlett</td>
+                              <td>Technical Author</td>
+                              <td>London</td>
+                              <td>27</td>
+                              <td>2011/05/07</td>
+                              <td>$145,000</td>
+                            </tr>
+                            <tr>
+                              <td>Gavin Cortez</td>
+                              <td>Team Leader</td>
+                              <td>San Francisco</td>
+                              <td>22</td>
+                              <td>2008/10/26</td>
+                              <td>$235,500</td>
+                            </tr>
+                            <tr>
+                              <td>Martena Mccray</td>
+                              <td>Post-Sales support</td>
+                              <td>Edinburgh</td>
+                              <td>46</td>
+                              <td>2011/03/09</td>
+                              <td>$324,050</td>
+                            </tr>
+                            <tr>
+                              <td>Unity Butler</td>
+                              <td>Marketing Designer</td>
+                              <td>San Francisco</td>
+                              <td>47</td>
+                              <td>2009/12/09</td>
+                              <td>$85,675</td>
+                            </tr>
+                            <tr>
+                              <td>Howard Hatfield</td>
+                              <td>Office Manager</td>
+                              <td>San Francisco</td>
+                              <td>51</td>
+                              <td>2008/12/16</td>
+                              <td>$164,500</td>
+                            </tr>
+                            <tr>
+                              <td>Hope Fuentes</td>
+                              <td>Secretary</td>
+                              <td>San Francisco</td>
+                              <td>41</td>
+                              <td>2010/02/12</td>
+                              <td>$109,850</td>
+                            </tr>
+                            <tr>
+                              <td>Vivian Harrell</td>
+                              <td>Financial Controller</td>
+                              <td>San Francisco</td>
+                              <td>62</td>
+                              <td>2009/02/14</td>
+                              <td>$452,500</td>
+                            </tr>
+                            <tr>
+                              <td>Timothy Mooney</td>
+                              <td>Office Manager</td>
+                              <td>London</td>
+                              <td>37</td>
+                              <td>2008/12/11</td>
+                              <td>$136,200</td>
+                            </tr>
+                            <tr>
+                              <td>Jackson Bradshaw</td>
+                              <td>Director</td>
+                              <td>New York</td>
+                              <td>65</td>
+                              <td>2008/09/26</td>
+                              <td>$645,750</td>
+                            </tr>
+                            <tr>
+                              <td>Olivia Liang</td>
+                              <td>Support Engineer</td>
+                              <td>Singapore</td>
+                              <td>64</td>
+                              <td>2011/02/03</td>
+                              <td>$234,500</td>
+                            </tr>
+                            <tr>
+                              <td>Bruno Nash</td>
+                              <td>Software Engineer</td>
+                              <td>London</td>
+                              <td>38</td>
+                              <td>2011/05/03</td>
+                              <td>$163,500</td>
+                            </tr>
+                            <tr>
+                              <td>Sakura Yamamoto</td>
+                              <td>Support Engineer</td>
+                              <td>Tokyo</td>
+                              <td>37</td>
+                              <td>2009/08/19</td>
+                              <td>$139,575</td>
+                            </tr>
+                            <tr>
+                              <td>Thor Walton</td>
+                              <td>Developer</td>
+                              <td>New York</td>
+                              <td>61</td>
+                              <td>2013/08/11</td>
+                              <td>$98,540</td>
+                            </tr>
+                            <tr>
+                              <td>Finn Camacho</td>
+                              <td>Support Engineer</td>
+                              <td>San Francisco</td>
+                              <td>47</td>
+                              <td>2009/07/07</td>
+                              <td>$87,500</td>
+                            </tr>
+                            <tr>
+                              <td>Serge Baldwin</td>
+                              <td>Data Coordinator</td>
+                              <td>Singapore</td>
+                              <td>64</td>
+                              <td>2012/04/09</td>
+                              <td>$138,575</td>
+                            </tr>
+                            <tr>
+                              <td>Zenaida Frank</td>
+                              <td>Software Engineer</td>
+                              <td>New York</td>
+                              <td>63</td>
+                              <td>2010/01/04</td>
+                              <td>$125,250</td>
+                            </tr>
+                            <tr>
+                              <td>Zorita Serrano</td>
+                              <td>Software Engineer</td>
+                              <td>San Francisco</td>
+                              <td>56</td>
+                              <td>2012/06/01</td>
+                              <td>$115,000</td>
+                            </tr>
+                            <tr>
+                              <td>Jennifer Acosta</td>
+                              <td>Junior Javascript Developer</td>
+                              <td>Edinburgh</td>
+                              <td>43</td>
+                              <td>2013/02/01</td>
+                              <td>$75,650</td>
+                            </tr>
+                            <tr>
+                              <td>Cara Stevens</td>
+                              <td>Sales Assistant</td>
+                              <td>New York</td>
+                              <td>46</td>
+                              <td>2011/12/06</td>
+                              <td>$145,600</td>
+                            </tr>
+                            <tr>
+                              <td>Hermione Butler</td>
+                              <td>Regional Director</td>
+                              <td>London</td>
+                              <td>47</td>
+                              <td>2011/03/21</td>
+                              <td>$356,250</td>
+                            </tr>
+                            <tr>
+                              <td>Lael Greer</td>
+                              <td>Systems Administrator</td>
+                              <td>London</td>
+                              <td>21</td>
+                              <td>2009/02/27</td>
+                              <td>$103,500</td>
+                            </tr>
+                            <tr>
+                              <td>Jonas Alexander</td>
+                              <td>Developer</td>
+                              <td>San Francisco</td>
+                              <td>30</td>
+                              <td>2010/07/14</td>
+                              <td>$86,500</td>
+                            </tr>
+                            <tr>
+                              <td>Shad Decker</td>
+                              <td>Regional Director</td>
+                              <td>Edinburgh</td>
+                              <td>51</td>
+                              <td>2008/11/13</td>
+                              <td>$183,000</td>
+                            </tr>
+                            <tr>
+                              <td>Michael Bruce</td>
+                              <td>Javascript Developer</td>
+                              <td>Singapore</td>
+                              <td>29</td>
+                              <td>2011/06/27</td>
+                              <td>$183,000</td>
+                            </tr>
+                            <tr>
+                              <td>Donna Snider</td>
+                              <td>Customer Support</td>
+                              <td>New York</td>
+                              <td>27</td>
+                              <td>2011/01/25</td>
+                              <td>$112,000</td>
+                            </tr>
+                          </tbody>
+                          <tfoot>
+                            <tr>
+                              <th>Name</th>
+                              <th>Position</th>
+                              <th>Office</th>
+                              <th>Age</th>
+                              <th>Start date</th>
+                              <th>Salary</th>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                    <div id="code3" class="inactive-div">
+                        <div class="row">
+                          <div class="table-responsive">
+                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+                              <thead>
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Position</th>
+                                  <th>Office</th>
+                                  <th>Age</th>
+                                  <th>Start date</th>
+                                  <th>Salary</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Tiger Nixon</td>
+                                  <td>System Architect</td>
+                                  <td>Edinburgh</td>
+                                  <td>61</td>
+                                  <td>2011/04/25</td>
+                                  <td>$320,800</td>
+                                </tr>
+                                <tr>
+                                  <td>Garrett Winters</td>
+                                  <td>Accountant</td>
+                                  <td>Tokyo</td>
+                                  <td>63</td>
+                                  <td>2011/07/25</td>
+                                  <td>$170,750</td>
+                                </tr>
+                                <tr>
+                                  <td>Ashton Cox</td>
+                                  <td>Junior Technical Author</td>
+                                  <td>San Francisco</td>
+                                  <td>66</td>
+                                  <td>2009/01/12</td>
+                                  <td>$86,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Cedric Kelly</td>
+                                  <td>Senior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>22</td>
+                                  <td>2012/03/29</td>
+                                  <td>$433,060</td>
+                                </tr>
+                                <tr>
+                                  <td>Airi Satou</td>
+                                  <td>Accountant</td>
+                                  <td>Tokyo</td>
+                                  <td>33</td>
+                                  <td>2008/11/28</td>
+                                  <td>$162,700</td>
+                                </tr>
+                                <tr>
+                                  <td>Brielle Williamson</td>
+                                  <td>Integration Specialist</td>
+                                  <td>New York</td>
+                                  <td>61</td>
+                                  <td>2012/12/02</td>
+                                  <td>$372,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Herrod Chandler</td>
+                                  <td>Sales Assistant</td>
+                                  <td>San Francisco</td>
+                                  <td>59</td>
+                                  <td>2012/08/06</td>
+                                  <td>$137,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Rhona Davidson</td>
+                                  <td>Integration Specialist</td>
+                                  <td>Tokyo</td>
+                                  <td>55</td>
+                                  <td>2010/10/14</td>
+                                  <td>$327,900</td>
+                                </tr>
+                                <tr>
+                                  <td>Colleen Hurst</td>
+                                  <td>Javascript Developer</td>
+                                  <td>San Francisco</td>
+                                  <td>39</td>
+                                  <td>2009/09/15</td>
+                                  <td>$205,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Sonya Frost</td>
+                                  <td>Software Engineer</td>
+                                  <td>Edinburgh</td>
+                                  <td>23</td>
+                                  <td>2008/12/13</td>
+                                  <td>$103,600</td>
+                                </tr>
+                                <tr>
+                                  <td>Jena Gaines</td>
+                                  <td>Office Manager</td>
+                                  <td>London</td>
+                                  <td>30</td>
+                                  <td>2008/12/19</td>
+                                  <td>$90,560</td>
+                                </tr>
+                                <tr>
+                                  <td>Quinn Flynn</td>
+                                  <td>Support Lead</td>
+                                  <td>Edinburgh</td>
+                                  <td>22</td>
+                                  <td>2013/03/03</td>
+                                  <td>$342,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Charde Marshall</td>
+                                  <td>Regional Director</td>
+                                  <td>San Francisco</td>
+                                  <td>36</td>
+                                  <td>2008/10/16</td>
+                                  <td>$470,600</td>
+                                </tr>
+                                <tr>
+                                  <td>Haley Kennedy</td>
+                                  <td>Senior Marketing Designer</td>
+                                  <td>London</td>
+                                  <td>43</td>
+                                  <td>2012/12/18</td>
+                                  <td>$313,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Tatyana Fitzpatrick</td>
+                                  <td>Regional Director</td>
+                                  <td>London</td>
+                                  <td>19</td>
+                                  <td>2010/03/17</td>
+                                  <td>$385,750</td>
+                                </tr>
+                                <tr>
+                                  <td>Michael Silva</td>
+                                  <td>Marketing Designer</td>
+                                  <td>London</td>
+                                  <td>66</td>
+                                  <td>2012/11/27</td>
+                                  <td>$198,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Paul Byrd</td>
+                                  <td>Chief Financial Officer (CFO)</td>
+                                  <td>New York</td>
+                                  <td>64</td>
+                                  <td>2010/06/09</td>
+                                  <td>$725,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Gloria Little</td>
+                                  <td>Systems Administrator</td>
+                                  <td>New York</td>
+                                  <td>59</td>
+                                  <td>2009/04/10</td>
+                                  <td>$237,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Bradley Greer</td>
+                                  <td>Software Engineer</td>
+                                  <td>London</td>
+                                  <td>41</td>
+                                  <td>2012/10/13</td>
+                                  <td>$132,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Dai Rios</td>
+                                  <td>Personnel Lead</td>
+                                  <td>Edinburgh</td>
+                                  <td>35</td>
+                                  <td>2012/09/26</td>
+                                  <td>$217,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Jenette Caldwell</td>
+                                  <td>Development Lead</td>
+                                  <td>New York</td>
+                                  <td>30</td>
+                                  <td>2011/09/03</td>
+                                  <td>$345,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Yuri Berry</td>
+                                  <td>Chief Marketing Officer (CMO)</td>
+                                  <td>New York</td>
+                                  <td>40</td>
+                                  <td>2009/06/25</td>
+                                  <td>$675,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Caesar Vance</td>
+                                  <td>Pre-Sales Support</td>
+                                  <td>New York</td>
+                                  <td>21</td>
+                                  <td>2011/12/12</td>
+                                  <td>$106,450</td>
+                                </tr>
+                                <tr>
+                                  <td>Doris Wilder</td>
+                                  <td>Sales Assistant</td>
+                                  <td>Sydney</td>
+                                  <td>23</td>
+                                  <td>2010/09/20</td>
+                                  <td>$85,600</td>
+                                </tr>
+                                <tr>
+                                  <td>Angelica Ramos</td>
+                                  <td>Chief Executive Officer (CEO)</td>
+                                  <td>London</td>
+                                  <td>47</td>
+                                  <td>2009/10/09</td>
+                                  <td>$1,200,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Gavin Joyce</td>
+                                  <td>Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>42</td>
+                                  <td>2010/12/22</td>
+                                  <td>$92,575</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Chang</td>
+                                  <td>Regional Director</td>
+                                  <td>Singapore</td>
+                                  <td>28</td>
+                                  <td>2010/11/14</td>
+                                  <td>$357,650</td>
+                                </tr>
+                                <tr>
+                                  <td>Brenden Wagner</td>
+                                  <td>Software Engineer</td>
+                                  <td>San Francisco</td>
+                                  <td>28</td>
+                                  <td>2011/06/07</td>
+                                  <td>$206,850</td>
+                                </tr>
+                                <tr>
+                                  <td>Fiona Green</td>
+                                  <td>Chief Operating Officer (COO)</td>
+                                  <td>San Francisco</td>
+                                  <td>48</td>
+                                  <td>2010/03/11</td>
+                                  <td>$850,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Shou Itou</td>
+                                  <td>Regional Marketing</td>
+                                  <td>Tokyo</td>
+                                  <td>20</td>
+                                  <td>2011/08/14</td>
+                                  <td>$163,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Michelle House</td>
+                                  <td>Integration Specialist</td>
+                                  <td>Sydney</td>
+                                  <td>37</td>
+                                  <td>2011/06/02</td>
+                                  <td>$95,400</td>
+                                </tr>
+                                <tr>
+                                  <td>Suki Burks</td>
+                                  <td>Developer</td>
+                                  <td>London</td>
+                                  <td>53</td>
+                                  <td>2009/10/22</td>
+                                  <td>$114,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Prescott Bartlett</td>
+                                  <td>Technical Author</td>
+                                  <td>London</td>
+                                  <td>27</td>
+                                  <td>2011/05/07</td>
+                                  <td>$145,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Gavin Cortez</td>
+                                  <td>Team Leader</td>
+                                  <td>San Francisco</td>
+                                  <td>22</td>
+                                  <td>2008/10/26</td>
+                                  <td>$235,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Martena Mccray</td>
+                                  <td>Post-Sales support</td>
+                                  <td>Edinburgh</td>
+                                  <td>46</td>
+                                  <td>2011/03/09</td>
+                                  <td>$324,050</td>
+                                </tr>
+                                <tr>
+                                  <td>Unity Butler</td>
+                                  <td>Marketing Designer</td>
+                                  <td>San Francisco</td>
+                                  <td>47</td>
+                                  <td>2009/12/09</td>
+                                  <td>$85,675</td>
+                                </tr>
+                                <tr>
+                                  <td>Howard Hatfield</td>
+                                  <td>Office Manager</td>
+                                  <td>San Francisco</td>
+                                  <td>51</td>
+                                  <td>2008/12/16</td>
+                                  <td>$164,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Hope Fuentes</td>
+                                  <td>Secretary</td>
+                                  <td>San Francisco</td>
+                                  <td>41</td>
+                                  <td>2010/02/12</td>
+                                  <td>$109,850</td>
+                                </tr>
+                                <tr>
+                                  <td>Vivian Harrell</td>
+                                  <td>Financial Controller</td>
+                                  <td>San Francisco</td>
+                                  <td>62</td>
+                                  <td>2009/02/14</td>
+                                  <td>$452,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Timothy Mooney</td>
+                                  <td>Office Manager</td>
+                                  <td>London</td>
+                                  <td>37</td>
+                                  <td>2008/12/11</td>
+                                  <td>$136,200</td>
+                                </tr>
+                                <tr>
+                                  <td>Jackson Bradshaw</td>
+                                  <td>Director</td>
+                                  <td>New York</td>
+                                  <td>65</td>
+                                  <td>2008/09/26</td>
+                                  <td>$645,750</td>
+                                </tr>
+                                <tr>
+                                  <td>Olivia Liang</td>
+                                  <td>Support Engineer</td>
+                                  <td>Singapore</td>
+                                  <td>64</td>
+                                  <td>2011/02/03</td>
+                                  <td>$234,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Bruno Nash</td>
+                                  <td>Software Engineer</td>
+                                  <td>London</td>
+                                  <td>38</td>
+                                  <td>2011/05/03</td>
+                                  <td>$163,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Sakura Yamamoto</td>
+                                  <td>Support Engineer</td>
+                                  <td>Tokyo</td>
+                                  <td>37</td>
+                                  <td>2009/08/19</td>
+                                  <td>$139,575</td>
+                                </tr>
+                                <tr>
+                                  <td>Thor Walton</td>
+                                  <td>Developer</td>
+                                  <td>New York</td>
+                                  <td>61</td>
+                                  <td>2013/08/11</td>
+                                  <td>$98,540</td>
+                                </tr>
+                                <tr>
+                                  <td>Finn Camacho</td>
+                                  <td>Support Engineer</td>
+                                  <td>San Francisco</td>
+                                  <td>47</td>
+                                  <td>2009/07/07</td>
+                                  <td>$87,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Serge Baldwin</td>
+                                  <td>Data Coordinator</td>
+                                  <td>Singapore</td>
+                                  <td>64</td>
+                                  <td>2012/04/09</td>
+                                  <td>$138,575</td>
+                                </tr>
+                                <tr>
+                                  <td>Zenaida Frank</td>
+                                  <td>Software Engineer</td>
+                                  <td>New York</td>
+                                  <td>63</td>
+                                  <td>2010/01/04</td>
+                                  <td>$125,250</td>
+                                </tr>
+                                <tr>
+                                  <td>Zorita Serrano</td>
+                                  <td>Software Engineer</td>
+                                  <td>San Francisco</td>
+                                  <td>56</td>
+                                  <td>2012/06/01</td>
+                                  <td>$115,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Jennifer Acosta</td>
+                                  <td>Junior Javascript Developer</td>
+                                  <td>Edinburgh</td>
+                                  <td>43</td>
+                                  <td>2013/02/01</td>
+                                  <td>$75,650</td>
+                                </tr>
+                                <tr>
+                                  <td>Cara Stevens</td>
+                                  <td>Sales Assistant</td>
+                                  <td>New York</td>
+                                  <td>46</td>
+                                  <td>2011/12/06</td>
+                                  <td>$145,600</td>
+                                </tr>
+                                <tr>
+                                  <td>Hermione Butler</td>
+                                  <td>Regional Director</td>
+                                  <td>London</td>
+                                  <td>47</td>
+                                  <td>2011/03/21</td>
+                                  <td>$356,250</td>
+                                </tr>
+                                <tr>
+                                  <td>Lael Greer</td>
+                                  <td>Systems Administrator</td>
+                                  <td>London</td>
+                                  <td>21</td>
+                                  <td>2009/02/27</td>
+                                  <td>$103,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Jonas Alexander</td>
+                                  <td>Developer</td>
+                                  <td>San Francisco</td>
+                                  <td>30</td>
+                                  <td>2010/07/14</td>
+                                  <td>$86,500</td>
+                                </tr>
+                                <tr>
+                                  <td>Shad Decker</td>
+                                  <td>Regional Director</td>
+                                  <td>Edinburgh</td>
+                                  <td>51</td>
+                                  <td>2008/11/13</td>
+                                  <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Michael Bruce</td>
+                                  <td>Javascript Developer</td>
+                                  <td>Singapore</td>
+                                  <td>29</td>
+                                  <td>2011/06/27</td>
+                                  <td>$183,000</td>
+                                </tr>
+                                <tr>
+                                  <td>Donna Snider</td>
+                                  <td>Customer Support</td>
+                                  <td>New York</td>
+                                  <td>27</td>
+                                  <td>2011/01/25</td>
+                                  <td>$112,000</td>
+                                </tr>
+                              </tbody>
+                              <tfoot>
+                                <tr>
+                                  <th>Name</th>
+                                  <th>Position</th>
+                                  <th>Office</th>
+                                  <th>Age</th>
+                                  <th>Start date</th>
+                                  <th>Salary</th>
+                                </tr>
+                              </tfoot>
+                            </table>
+                          </div>
+                        </div>
+                    </div>
+                    <div id="code4" class="inactive-div">
+                        <div class="row">
+                            <div class="card shadow-lg">
+    
+                                <div class="card-body">
+                                    <div class="basis-member staff">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="code5" class="inactive-div">
+                        <div class="row">
+                            <div class="card shadow-lg">
+    
+                                <div class="card-body">
+                                    <div class="basis-member staff">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="code6" class="inactive-div">
+                        <div class="row">
+                            <div class="card shadow-lg">
+    
+                                <div class="card-body">
+                                    <div class="basis-member staff">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="code7" class="inactive-div">
+                        <div class="row">
+                            <div class="card shadow-lg">
+    
+                                <div class="card-body">
+                                    <div class="basis-member staff">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="code8" class="inactive-div">
+                        <div class="row">
+                            <div class="card shadow-lg">
+    
+                                <div class="card-body">
+                                    <div class="basis-member staff">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6 col-12">
+                                                    <div class="card member-box shadow-lg">
+                                                        <span class="shape"></span>
+                                                        <img class="card-img-top" src="assets/images/all-img/c2.png" alt="">
+                                                        <div class="card-body">
+    
+                                                            <h4 class="member-title"><a href="" class="text-dark">Ouat Maha
+                                                                    Packk</a></h4>
+    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('.accordion-link1').forEach(function (item) {
+    
+                    item.addEventListener('click', function () {
+                        var id = this.id.replace('-link', '');
+    
+                        document.querySelectorAll('.col-md-10 > div').forEach(function (div) {
+                            div.classList.remove('active-div');
+                            div.classList.add('inactive-div');
+                        });
+    
+                        document.getElementById(id).classList.remove('inactive-div');
+                        document.getElementById(id).classList.add('active-div');
+                        document.querySelectorAll('.accordion-link1').forEach(function (link) {
+                            link.classList.remove('color-blue');
+                        });
+    
+                        // Add color-blue class to the clicked link
+                        this.classList.add('color-blue');
+                    });
+    
+    
+                });
+    
+            });
+    
+    
+        </script>
+         <script>
+          // JavaScript function to check/uncheck all checkboxes
+          function checkAll(ele) {
+            var checkboxes = document.getElementsByTagName('input');
+            if (ele.checked) {
+              for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].type == 'checkbox' && checkboxes[i].id != 'AllChecked') {
+                  checkboxes[i].checked = true;
+                }
+              }
+            } else {
+              for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].type == 'checkbox' && checkboxes[i].id != 'AllChecked') {
+                  checkboxes[i].checked = false;
+                }
+              }
+            }
+          }
+        </script>
+
+    </div>
+  </main>
+  <!--end main wrapper-->
+ 
+
+  <!--start overlay-->
+  <div class="overlay btn-toggle"></div>
+  <!--end overlay-->
+
+
+  <!--start footer-->
+  <footer class="page-footer">
+    <p class="mb-0">Copyright © 2024. All right reserved.</p>
+  </footer>
+  <!--end footer-->
+
+  
+
+
+
+  <!--start switcher-->
+    
+  <!--bootstrap js-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!--plugins-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!--plugins-->
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+  <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+  <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="assets/plugins/peity/jquery.peity.min.js"></script>
+  <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+  <script src="assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+
+
+
+  
+  <script>
+    $(".data-attributes span").peity("donut");
+ 
+		$(document).ready(function() {
+			$('#example').DataTable();
+		  } );
+	
+		$(document).ready(function() {
+			var table = $('#example2').DataTable( {
+				lengthChange: true,
+				buttons: [ 'copy', 'excel', 'pdf', 'print']
+			} );
+		 
+			table.buttons().container()
+				.appendTo( '#example2_wrapper .col-md-6:eq(0)' );
+		} );
+	
+  </script>
+  <script src="assets/js/dashboard2.js"></script>
+ 
+ 
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="assets/plugins/select2/js/select2-custom.js"></script>
+ 
+ 
+  <script src="assets/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+	<script src="assets/plugins/bs-stepper/js/main.js"></script>
+  
+  
+
+	<script>
+		
+
+
+		$(".date-format").flatpickr({
+			altInput: true,
+			altFormat: "F j, Y",
+			dateFormat: "Y-m-d",
+		});
+
+		
+
+	</script>
+  <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
